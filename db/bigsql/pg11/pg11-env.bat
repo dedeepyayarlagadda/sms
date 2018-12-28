@@ -1,0 +1,10 @@
+@echo off
+set PGHOME=E:\post\bigsql\pg11
+set PGDATA=E:\post\bigsql\data\pg11
+set PATH=E:\post\bigsql\pg11\bin;%PATH%
+set PGUSER=postgres
+set PGDATABASE=postgres
+set PGPORT=5432
+set PGPASSFILE=C:\Users\arjun\AppData\Roaming\postgresql\pgpass.conf
+set PYTHONPATH=E:\post\bigsql\pg11\python\site-packages
+set GDAL_DATA=E:\post\bigsql\pg11\share\gdal

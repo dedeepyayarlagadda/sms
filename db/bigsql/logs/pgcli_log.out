@@ -1,0 +1,334 @@
+2018-12-05 09:34:41 [COMMAND] : pgc set GLOBAL REPO https://s3.amazonaws.com/pgcentral
+2018-12-05 09:34:42 [COMMAND] : pgc update --silent
+2018-12-05 09:34:42 [INFO] : Retrieving the remote list of latest component versions (versions.sql) ...
+2018-12-05 09:34:49 [INFO] : Validating checksum file...
+2018-12-05 09:34:49 [INFO] : Updating local repository with remote entries...
+2018-12-05 09:34:49 [INFO] : 'hub' is v4.0.4
+2018-12-05 09:39:42 [COMMAND] : pgc install pg11
+2018-12-05 09:39:42 [INFO] :   ['pg11']
+2018-12-05 09:39:42 [INFO] : Get:1 https://s3.amazonaws.com/pgcentral pg11-11.1-2-win64
+2018-12-05 09:39:45 [INFO] : Downloading file pg11-11.1-2-win64 
+2018-12-05 09:39:54 [INFO] :  Unpacking pg11-11.1-2-win64.tar.bz2
+2018-12-05 09:40:26 [INFO] : pg11 Enabled
+2018-12-05 09:46:20 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 09:46:20 [COMMAND] : pgc start
+ 
+## Initializing pg11 #######################
+ 
+2018-12-05 09:46:38 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 09:46:38 [COMMAND] : pgc start
+ 
+## Initializing pg11 #######################
+ 
+Setting directory and file permissions.
+setting permission to log dir
+ 
+Initializing Postgres DB with:
+  C:\arjun\bigsql\pg11\bin\initdb -U postgres -A md5 -E UTF8 --no-locale -D "C:\arjun\bigsql\data\pg11" --pwfile="C:\arjun\bigsql\pg11\.pgpass" > "C:\arjun\bigsql\data\logs\pg11\install.log" 2>&1
+ 
+Using PostgreSQL Port 5433
+ 
+Password securely remembered in the file: C:\Users\arjun\AppData\Roaming\postgresql\pgpass.conf
+ 
+to load this postgres into your environment, run the env file: 
+    C:\arjun\bigsql\pg11\pg11-env.bat
+ 
+2018-12-05 09:47:07 [ERROR] : Traceback (most recent call last):
+  File "C:\arjun\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 09:49:56 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 09:49:56 [COMMAND] : pgc start
+ 
+## Initializing pg11 #######################
+ 
+Setting directory and file permissions.
+setting permission to log dir
+ 
+Initializing Postgres DB with:
+  C:\arjun\bigsql\pg11\bin\initdb -U postgres -A md5 -E UTF8 --no-locale -D "C:\arjun\bigsql\data\pg11" --pwfile="C:\arjun\bigsql\pg11\.pgpass" > "C:\arjun\bigsql\data\logs\pg11\install.log" 2>&1
+ 
+Using PostgreSQL Port 5432
+ 
+Password securely remembered in the file: C:\Users\arjun\AppData\Roaming\postgresql\pgpass.conf
+ 
+to load this postgres into your environment, run the env file: 
+    C:\arjun\bigsql\pg11\pg11-env.bat
+ 
+2018-12-05 09:50:29 [ERROR] : Traceback (most recent call last):
+  File "C:\arjun\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 09:50:57 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 09:50:57 [COMMAND] : pgc stop
+2018-12-05 10:05:38 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:05:38 [COMMAND] : pgc start
+2018-12-05 10:05:38 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:07:16 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:07:16 [COMMAND] : pgc start
+2018-12-05 10:07:16 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:07:33 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:07:33 [COMMAND] : pgc stop
+2018-12-05 10:07:40 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:07:40 [COMMAND] : pgc start
+2018-12-05 10:07:40 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:10:34 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:10:34 [COMMAND] : pgc start
+2018-12-05 10:10:34 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:13:22 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:13:22 [COMMAND] : pgc start
+2018-12-05 10:13:23 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:13:46 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:13:46 [COMMAND] : pgc start
+2018-12-05 10:13:47 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:14:31 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:14:31 [COMMAND] : pgc start
+2018-12-05 10:14:31 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:17:42 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:17:42 [COMMAND] : pgc start
+2018-12-05 10:17:43 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:17:49 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:17:49 [COMMAND] : pgc start
+2018-12-05 10:17:49 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:19:16 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:19:16 [COMMAND] : pgc start
+2018-12-05 10:19:17 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:22:55 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:22:55 [COMMAND] : pgc start
+2018-12-05 10:22:55 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:23:21 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:23:21 [COMMAND] : pgc start
+2018-12-05 10:23:21 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:25:02 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:25:02 [COMMAND] : pgc start
+2018-12-05 10:25:03 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:28:52 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:28:52 [COMMAND] : pgc start
+2018-12-05 10:28:52 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:49:31 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:49:31 [COMMAND] : pgc start
+2018-12-05 10:49:31 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:51:22 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:51:22 [COMMAND] : pgc start
+2018-12-05 10:52:04 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:52:04 [COMMAND] : pgc start
+2018-12-05 10:52:44 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:52:44 [COMMAND] : pgc start
+2018-12-05 10:53:42 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:53:42 [COMMAND] : pgc start
+2018-12-05 10:54:01 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:54:01 [COMMAND] : pgc start
+2018-12-05 10:55:44 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:55:44 [COMMAND] : pgc start
+ 
+## Initializing pg11 #######################
+ 
+Setting directory and file permissions.
+setting permission to log dir
+ 
+Initializing Postgres DB with:
+  E:\post\bigsql\pg11\bin\initdb -U postgres -A md5 -E UTF8 --no-locale -D "E:\post\bigsql\data\pg11" --pwfile="E:\post\bigsql\pg11\.pgpass" > "E:\post\bigsql\data\logs\pg11\install.log" 2>&1
+ 
+Using PostgreSQL Port 5432
+ 
+Password securely remembered in the file: C:\Users\arjun\AppData\Roaming\postgresql\pgpass.conf
+ 
+to load this postgres into your environment, run the env file: 
+    E:\post\bigsql\pg11\pg11-env.bat
+ 
+2018-12-05 10:56:33 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:56:44 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:56:44 [COMMAND] : pgc stop
+2018-12-05 10:57:01 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:57:01 [COMMAND] : pgc start
+2018-12-05 10:57:01 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:57:12 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:57:12 [COMMAND] : pgc start
+2018-12-05 10:57:13 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:57:27 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:57:27 [COMMAND] : pgc start
+2018-12-05 10:57:28 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:58:54 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:58:54 [COMMAND] : pgc start
+2018-12-05 10:58:55 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 10:59:37 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 10:59:37 [COMMAND] : pgc start
+2018-12-05 10:59:37 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 11:01:02 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 11:01:02 [COMMAND] : pgc start
+2018-12-05 11:01:02 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 11:01:19 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 11:01:19 [COMMAND] : pgc start
+2018-12-05 11:01:20 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 11:02:00 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 11:02:00 [COMMAND] : pgc stop
+2018-12-05 11:02:07 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 11:02:07 [COMMAND] : pgc start
+2018-12-05 11:03:08 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 11:03:08 [COMMAND] : pgc start
+2018-12-05 11:03:08 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 11:03:30 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 11:03:30 [COMMAND] : pgc start
+ 
+## Initializing pg11 #######################
+ 
+Setting directory and file permissions.
+setting permission to log dir
+ 
+Initializing Postgres DB with:
+  E:\post\bigsql\pg11\bin\initdb -U postgres -A md5 -E UTF8 --no-locale -D "E:\post\bigsql\data\pg11" --pwfile="E:\post\bigsql\pg11\.pgpass" > "E:\post\bigsql\data\logs\pg11\install.log" 2>&1
+ 
+Using PostgreSQL Port 5432
+ 
+Password securely remembered in the file: C:\Users\arjun\AppData\Roaming\postgresql\pgpass.conf
+ 
+to load this postgres into your environment, run the env file: 
+    E:\post\bigsql\pg11\pg11-env.bat
+ 
+2018-12-05 11:03:56 [ERROR] : Traceback (most recent call last):
+  File "E:\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-05 11:04:51 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 11:04:51 [COMMAND] : pgc stop
+2018-12-05 11:05:27 [ERROR] : Traceback (most recent call last):
+  File "hub\scripts\pgc.py", line 1878, in <module>
+    run_script(comp[0], script_name, p_mode)
+  File "hub\scripts\pgc.py", line 174, in run_script
+    print('Error running ' + scriptName)
+  File "E:\post\bigsql\python37\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "E:\post\bigsql\python37\lib\site-packages\colorama\ansitowin32.py", line 154, in write
+    self.write_and_convert(text)
+  File "E:\post\bigsql\python37\lib\site-packages\colorama\ansitowin32.py", line 182, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "E:\post\bigsql\python37\lib\site-packages\colorama\ansitowin32.py", line 187, in write_plain_text
+    self.wrapped.write(text[start:end])
+OSError: [Errno 22] Invalid argument
+
+2018-12-05 11:09:08 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-05 11:09:08 [COMMAND] : pgc start
+2018-12-05 11:09:09 [ERROR] : Traceback (most recent call last):
+  File "C:\arjun\POWERS~1\post\bigsql\hub\scripts\util.py", line 646, in read_env_file
+    k, _, v = map(str.strip, var.strip().partition('='))
+TypeError: a bytes-like object is required, not 'str'
+
+2018-12-10 08:32:19 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-10 08:32:19 [COMMAND] : pgc stop
+2018-12-13 16:31:49 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-13 16:31:49 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-13 16:32:08 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-13 16:32:08 [COMMAND] : pgc update
+2018-12-13 16:32:08 [INFO] : Retrieving the remote list of latest component versions (versions.sql) ...
+2018-12-13 16:32:08 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-13 16:32:10 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-13 16:32:11 [INFO] : Validating checksum file...
+2018-12-13 16:32:11 [INFO] : Updating local repository with remote entries...
+2018-12-13 16:32:11 [INFO] : 'hub' is v4.0.4
+2018-12-13 16:33:00 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-13 16:33:00 [COMMAND] : pgc upgrade
+2018-12-13 16:33:00 [INFO] : All components are already upgraded to the latest version.
+2018-12-13 17:25:21 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-13 17:25:21 [COMMAND] : pgc -U smsuser1 -d smsdb
+2018-12-13 17:25:21 [ERROR] : Invalid option or command
+2018-12-13 17:25:52 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'
+2018-12-13 17:25:52 [ERROR] : b'System error 5 has occurred.\r\n\r\nAccess is denied.\r\n\r\n'

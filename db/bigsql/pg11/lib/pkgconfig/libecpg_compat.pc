@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 11.1
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/opt/pgbin-build/pgbin/bin/../20181123_1313/build/pg11-11.1-2-win64/include
+Libs: -L/opt/pgbin-build/pgbin/bin/../20181123_1313/build/pg11-11.1-2-win64/lib -lecpg_compat
+Libs.private: -L/opt/pgbin-build/pgbin/shared/win64/lib -L/usr/local/lib -L/usr/local/ssl/lib -LC:/msys64/mingw64/lib -lintl -lm
