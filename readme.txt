@@ -14,11 +14,11 @@ This sms zip contains:
 	
 	bin        - Executable files are provided.
 	config     - Configuration files required for the project SMS.
-		     User can do the required configuration changes in the files under this folder.
+			     User can do the required configuration changes in the files under this folder.
 	db         - Contains Embedded postgres and SMS schema file.
 	lib        - Contains the dependent jar files to run the SMS project.
 	logs       - Contains log files.
-    readme.txt     - Explains details regarding Student Management System.
+    readme.txt - Explains details regarding Student Management System.
     
 
 Setup
