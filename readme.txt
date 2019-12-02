@@ -37,6 +37,13 @@ Go to SMS_HOME\bin
 3. Run smstest.cmd to execute SMS project.
 4. Run stopsms.cmd to stop execution of sms.
 
+Shell Mode:
+---------
+To access Db queries,
+
+Go to AI_HOME\db\data\pg11\bin, open command prompt here and use the query "psql -U username(aidemouser) -d databaseName(aidemodb) " 
+It will go to shell mode now we can execute our queries
+
 
 
 
