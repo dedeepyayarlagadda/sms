@@ -10,7 +10,7 @@ JDK 1.6, URL: https://www.oracle.com/technetwork/java/javase/downloads/index.htm
 CONTENTS
 --------
 
-This sms zip contains:
+This sms zip containss:
 	
 	bin        - Executable files are provided.
 	config     - Configuration files required for the project SMS.
